@@ -1,0 +1,38 @@
+============ * * * * * *  =============
+======== SISTEMAS OPERATIVOS ==========
+==========  * * * * * * *  ============
+=======================================
+======== TRABAJO INTEGRADOR ===========
+=======================================
+============ INTEGRANTES: =============
+------- VILLANUEVA NAMOC, MARCO -------
+--------- OCHOA LAPA, RENATO ----------
+------- SANTIN VILCHEZ, RENATO --------
+------ CARAMANTIN CRUZ, LEANDRO -------
+=======================================
+
+Valores ingresados:
+Número de procesos: 5
+Tamaño del quantum: 3
+Prioridades: 1 2 1 2 0 
+Tiempos de llegada: 0 0 1 2 3 
+Tiempos de CPU: 4 3 2 4 2 
+==========  * * * * * * * * * * *  ============
+==========  Algoritmo Round Robin  ============
+==========  * * * * * * * * * * *  ============
+
+=====================================
+========  VISUALIZACIÓN  ============
+X X X W W W W W W W W X - - - 
+W W W X X X - - - - - - - - - 
+- W W W W W X X - - - - - - - 
+- - W W W W W W X X X W W W X 
+- - - W W W W W W W W W X X - 
+
+======================================
+
+===========  RESULTADOS  =============
+>> El tiempo de retorno promedio es: 9.8000
+>> El tiempo de espera promedio es: 6.8000
+>> El tiempo de servicio es: 3.0000
+>> El tiempo de retorno normalizado es: 3.2667
